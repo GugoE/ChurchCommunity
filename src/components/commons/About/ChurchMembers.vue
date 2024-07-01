@@ -1,11 +1,11 @@
 <template>
-  <div class="meetmembers">
-    <div class="meetmembers__title">
+  <div class="meet-members">
+    <div class="meet-members__title">
         <h6>CHURCH MEMBER</h6>
         <h2>MEET OUR INSPIRATIONAL TEAM</h2>
     </div>
-    <div class="meetmembers__members">
-        <div class="meetmembers__members--member">
+    <div class="meet-members__members">
+        <div class="meet-members__members--member">
             <div class="member--pfp">
                 <img src="./img/member1.jpg" alt="">
             </div>
@@ -20,7 +20,7 @@
             </div>
         </div>
 
-        <div class="meetmembers__members--member">
+        <div class="meet-members__members--member">
             <div class="member--pfp">
                 <img src="./img/member2.jpg" alt="">
             </div>
@@ -34,7 +34,7 @@
                 <img src="./icons/Linkdin.png" alt="">
             </div>
         </div>
-        <div class="meetmembers__members--member">
+        <div class="meet-members__members--member">
             <div class="member--pfp">
                 <img src="./img/member3.jpg" alt="">
             </div>
@@ -48,7 +48,7 @@
                 <img src="./icons/Linkdin.png" alt="">
             </div>
         </div>
-        <div class="meetmembers__members--member">
+        <div class="meet-members__members--member">
             <div class="member--pfp">
                 <img src="./img/member4.jpg" alt="">
             </div>
@@ -71,7 +71,7 @@
 </script>
 
 <style lang="scss" scoped>
-.meetmembers{
+.meet-members{
     padding: 50px 0 0 70px;
     text-align: center;
     height: 630px;

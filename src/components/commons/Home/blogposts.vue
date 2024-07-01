@@ -54,7 +54,7 @@
 </template>
 
 <script setup>
-import Card from 'c:/Users/User/Desktop/church comunity project/src/components/ui/card.vue'
+import Card from '../../ui/card.vue'
 
 
 </script>
@@ -62,18 +62,15 @@ import Card from 'c:/Users/User/Desktop/church comunity project/src/components/u
 <style lang="scss" scoped>
 .blogs{
     height: 850px;
-    position: relative;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 180px;
+
     &__context{
-        position: absolute;
-        top: 180px;
-        right: 450px;
         text-align: center;
     }
     &__posts{
-        position: absolute;
-        bottom: 50px;
-        left: 100px;
         display: flex;
         column-gap: 30px;
         &--post{

@@ -40,8 +40,8 @@
 </template>
 
 <script setup>
-import Card from 'c:/Users/User/Desktop/church comunity project/src/components/ui/card.vue'
-import Button from 'c:/Users/User/Desktop/church comunity project/src/components/ui/buttonui.vue'
+import Card from '../../ui/card.vue'
+import Button from '../../ui/buttonui.vue'
 
 
 
@@ -55,25 +55,25 @@ a{
 .joinus{
     width: 100%;
     height: 1000px;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
     &__content{
         width: 100%;
-        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         &>*{
-            position: absolute;
-            width: 900px;
-            left: 280px;
             text-align: center;
-            top: 100px;
         }
         &>h1{
-            top: 120px;
+                width: 1000px;
         }
     }
     &__card{
         width: 1280px;
         height: 512px;
-        position: relative;
         top: 400px;
         display: flex;
         padding-left: 100px;
@@ -88,9 +88,9 @@ a{
         }
     }
     &__viewmore{
-        position: absolute;
-        bottom: 50px;
-        right: 120px;
+        width: 90%;
+        display: flex;
+        justify-content: flex-end;
     }
     
 }

@@ -62,13 +62,14 @@
 .benefits{
     width: 100%;
     margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     &__title{
         width: 562px;
         text-align: center;
-        padding-left: 441px;
     }
     &__cards{
-        padding-left: 294px;
         padding-top: 70px;
         display: flex;
         flex-direction: column;

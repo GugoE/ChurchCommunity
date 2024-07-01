@@ -42,10 +42,10 @@
 </template>
 
 <script setup>
-import Button from 'c:/Users/User/Desktop/church comunity project/src/components/ui/buttonui.vue'
+import Button from '../../ui/buttonui.vue'
 
 import {defineProps, onMounted, ref} from 'vue'
-import {AllSermons} from 'c:/Users/User/Desktop/church comunity project/src/stores/sermons.js'
+import {AllSermons} from '../../../stores/sermons.js'
 const Sermons = AllSermons()
 
 const Sermon = ref(null)

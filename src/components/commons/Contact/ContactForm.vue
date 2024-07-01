@@ -29,18 +29,17 @@
 </template>
 
 <script setup>
-import Button from 'c:/Users/User/Desktop/church comunity project/src/components/ui/buttonui.vue'
+import Button from '../../ui/buttonui.vue'
 
 </script>
 
 <style lang="scss" scoped>
 .contact{
     display: flex;
-    background: rgba(245, 242, 240, 1);
-    padding-left: 110px;
+    background: rgb(245, 242, 240);
     padding-top: 150px;
-    column-gap: 139px;
     height: 700px;
+    justify-content: space-evenly;
     &__form{
         &>h5{
             margin: 0;

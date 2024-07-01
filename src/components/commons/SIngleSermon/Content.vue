@@ -40,8 +40,8 @@
 
 <script setup>
 import { computed, onMounted, ref } from 'vue'
-import Card from 'c:/Users/User/Desktop/church comunity project/src/components/ui/card.vue'
-import {AllSermons} from 'c:/Users/User/Desktop/church comunity project/src/stores/sermons.js'
+import Card from '../../ui/card.vue'
+import {AllSermons} from '../../../stores/sermons.js'
 const Sermons = AllSermons()
 
 const GetSermons = computed(()=>{
@@ -54,13 +54,12 @@ const GetSermons = computed(()=>{
 
 <style lang="scss" scoped>
 .Events{
-    padding-top: 80px;
+        padding-top: 80px;
     height: 750px;
-    background: rgba(245, 242, 240, 1);
-
-    &__title{
-        padding-left: 473px;
-    }
+    background: rgb(245, 242, 240);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     &__cards{
         display: flex;
         justify-content: center;
