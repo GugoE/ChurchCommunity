@@ -20,10 +20,10 @@
 </template>
 
 <script setup>
-import Button from 'c:/Users/User/Desktop/church comunity project/src/components/ui/buttonui.vue'
+import Button from '../../ui/buttonui.vue'
 
 import {computed, defineProps, onMounted, onUpdated, ref} from 'vue'
-import {AllBlogs} from 'c:/Users/User/Desktop/church comunity project/src/stores/blogs.js'
+import {AllBlogs} from '../../../stores/blogs.js'
 const Blogs = AllBlogs()
 
 const Blog = computed(()=>{
@@ -52,10 +52,12 @@ const props = defineProps({
     padding: 100px 0px;
     text-align: center;
     height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     &__secondary{
         text-align: left;
         width: 800px;
-        padding-left:300px;
         &>h4{
             margin: 0;
             display: none;

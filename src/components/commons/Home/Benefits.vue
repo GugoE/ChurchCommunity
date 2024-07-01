@@ -46,26 +46,23 @@ export default {
     height: 871px;
     background: #F5F2F0;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     &__content{
-        width: 100%;
-        position: relative;
+        display: flex;
+        flex-direction: column;
         &>h1,p{
-            position: absolute;
             width: 800px;
-            left: 350px;
             text-align: center;
-        }
-        &>h1{
-            top: 30px;
         }
     }
     &__cards{
-        padding-left: 76px;
+    padding-left: 76px;
     display: flex;
     column-gap: 50px;
+    position: relative;
         &>div{
-            position: relative;
-            top: 300px;
             width: 302px;
             height: 384px;
             &>img{

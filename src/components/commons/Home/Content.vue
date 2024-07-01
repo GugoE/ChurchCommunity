@@ -51,10 +51,9 @@
 </template>
 
 <script setup>
-import Card from 'c:/Users/User/Desktop/church comunity project/src/components/ui/card.vue'
-import Button from 'c:/Users/User/Desktop/church comunity project/src/components/ui/buttonui.vue'
-import LoveCompassion from 'c:/Users/User/Desktop/church comunity project/src/components/commons/Home/LoveAndCompassion.vue'
-
+import Card from '../../ui/card.vue'
+import Button from '../../ui/buttonui.vue'
+import LoveCompassion from './LoveAndCompassion.vue'
 
 </script>
 
@@ -76,16 +75,18 @@ import LoveCompassion from 'c:/Users/User/Desktop/church comunity project/src/co
     }
     &__churches {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
     }
     &__secondSubHeadline{
         margin-top: 200px;
     }
     &__footer{
         margin-top: 180px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         &>p{
             width: 512px;
-            margin-left: 500px;
         }
     }
 }

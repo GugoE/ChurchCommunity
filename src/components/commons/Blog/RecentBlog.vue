@@ -33,7 +33,7 @@
 </template>
 
 <script setup>
-import Button from 'c:/Users/User/Desktop/church comunity project/src/components/ui/buttonui.vue'
+import Button from '../../ui/buttonui.vue'
 
 </script>
 
@@ -43,6 +43,9 @@ import Button from 'c:/Users/User/Desktop/church comunity project/src/components
     margin-top: 80px;
     height: 800px;
     padding-top: 128px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     &--content{
         text-align: center;
     }

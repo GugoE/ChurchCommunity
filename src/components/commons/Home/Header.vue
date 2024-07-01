@@ -15,7 +15,7 @@
 </template>
 
 <script setup>
-import Button from 'c:/Users/User/Desktop/church comunity project/src/components/ui/buttonui.vue'
+import Button from '../../ui/buttonui.vue'
 
 
 </script>

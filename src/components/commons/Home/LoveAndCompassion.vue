@@ -23,25 +23,27 @@
 </template>
 
 <script setup>
-import Button from 'c:/Users/User/Desktop/church comunity project/src/components/ui/buttonui.vue'
+import Button from '../../ui/buttonui.vue'
 
 
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss" >
 .welcomeblog{
   width: 100%;
   height: auto;
   min-height: 500px;
   text-align: center;
+  min-height: 770px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
   &__content{
-    width: 100%;
-    height: 300px;
-    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     &>p{
       width: 880px;
-      position: absolute;
-      right: 350px;
     }
     &>h1{
       margin: 0;

@@ -28,13 +28,16 @@
 </template>
 
 <script setup>
-import LoveCompassion from 'c:/Users/User/Desktop/church comunity project/src/components/commons/Home/LoveAndCompassion.vue'
+import LoveCompassion from '../Home/LoveAndCompassion.vue'
 
 </script>
 
 <style lang="scss" scoped>
 .lovecompassion{
     padding-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     &__main{
         height: 1000px;
         &>h6{

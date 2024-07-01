@@ -23,8 +23,8 @@
 
 <script setup>
 import { computed } from 'vue'
-import {AllBlogs} from 'c:/Users/User/Desktop/church comunity project/src/stores/blogs.js'
-import Card from 'c:/Users/User/Desktop/church comunity project/src/components/ui/card.vue'
+import {AllBlogs} from '../../../stores/blogs.js'
+import Card from '../../ui/card.vue'
 
 
 const allblogs = AllBlogs()
@@ -48,6 +48,9 @@ a{
 .blog-posts{
     background: rgba(245, 242, 240, 1);
     height: 1070px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     &__title{
         text-align: center;
             margin-bottom: 80px;

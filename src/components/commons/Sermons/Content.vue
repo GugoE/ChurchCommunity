@@ -41,8 +41,8 @@
 <script setup>
 import { computed, onMounted, ref } from 'vue'
 import JoinTeam from '../Home/JoinTeam.vue'
-import Card from 'c:/Users/User/Desktop/church comunity project/src/components/ui/card.vue'
-import {AllSermons} from 'c:/Users/User/Desktop/church comunity project/src/stores/sermons.js'
+import Card from '../../ui/card.vue'
+import {AllSermons} from '../../../stores/sermons'
 const Sermons = AllSermons()
 
 const GetSermons = computed(()=>{
@@ -57,9 +57,10 @@ const GetSermons = computed(()=>{
 .Events{
     padding-top: 80px;
         height: 750px;
-    &__title{
-        padding-left: 473px;
-    }
+            display: flex;
+    flex-direction: column;
+    align-items: center;
+    
     &__cards{
         display: flex;
         justify-content: center;
